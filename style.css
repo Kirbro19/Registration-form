@@ -1,0 +1,101 @@
+body {
+background-color: rgb(40, 40, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+.some-form {
+    width: 30%;
+    margin: 36px auto;
+}
+
+.form {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.some-form__header {
+    margin-bottom: 41px;
+    padding-top: 12px;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.some-form__line {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.some-form__hint {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: -6px;
+    padding: 0 12px;
+    width: 100%;
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    line-height: 1.333333;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 15px 16px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    background: #19b5ca;
+    color: #fff;
+    border: 2px solid #19b5ca;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 43px rgba(18,159,178,.35);
+    -moz-box-shadow: 0 20px 43px rgba(18,159,178,.35);
+    box-shadow: 0 20px 43px rgba(18,159,178,.35);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #0e9aad;
+    border-color: #0e9aad;
+}
+
+.button_wide {
+    width: 100%;
+}
+
+.button_submit {
+    font-size: 19px;
+}
+
+input {
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+footer {
+    margin: 30px;
+    color: white;
+}

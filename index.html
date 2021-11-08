@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Форма для регистрации</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header class="header">
+</header>
+
+<body>
+  <div class="some-form">
+    <form name="registration" class="form js-form-validate">
+      <div class="some-form__header title">Регистрация</div>
+
+      <div class="some-form__line">
+        <input type="text" id="input-surname" class="input-text" name="surname" placeholder="Фамилия">
+        <div class="some-form__hint"></div>
+      </div>
+
+      <div class="some-form__line">
+        <input type="text" id="input-name" class="input-text" name="name" placeholder="Имя">
+        <div class="some-form__hint"></div>
+      </div>
+
+      <div class="some-form__line">
+        <input type="tel" id="input-phone" class="input-text" name="phone" placeholder="Телефон">
+        <div  class="some-form__hint"></div>
+      </div>
+
+      <div class="some-form__line">
+        <input type="email" id="email" placeholder="Ваш email">
+        <div class="some-form__hint"></div>
+      </div>
+
+      <div class="some-form__line">
+        М<input type="radio" name="gender">
+        Ж<input type="radio" name="gender">
+      </div>
+
+      <div class="some-form__line">
+        <select id="select">
+          <option value="country">- Выберите страну -</option>
+          <option value="russia">Россия</option>
+          <option value="ukraine">Украина</option>
+          <option value="belarus">Беларусь</option>
+          <option value="other">Другая</option>
+        </select>
+      </div>
+      <div id="input-error-form"></div>
+      <div class="some-form__submit">
+        <button id="button" type="submit" class="button button_submit button_wide">Отправить</button>
+      </div>
+      
+    </form>
+  </div>
+  <footer>
+    © Kir bro
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
