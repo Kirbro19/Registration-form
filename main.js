@@ -1,5 +1,3 @@
-select.value = "country";
-
 const form = document.forms.registration;
 const { name, surname, phone, email } = form;
 
